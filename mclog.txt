@@ -1,0 +1,6 @@
+main.go:59: mc logging
+game.go:86: opening /Users/pgollucci/.local/state/gh/mc.yml
+game.go:86: &main.stateEntry{HighScores:map[string][]main.scoreEntry{}}
+game.go:86: map[string][]main.scoreEntry{"p6m7g8/p6df-databricks":[]main.scoreEntry{}}
+game.go:86: 0
+game.go:86: 0
