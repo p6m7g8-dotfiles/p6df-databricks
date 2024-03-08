@@ -40,6 +40,16 @@
 
 ## Usage
 
+### p6df-databricks:
+
+#### p6df-databricks/init.zsh:
+
+- p6df::modules::databricks::deps()
+- p6df::modules::databricks::external::brew()
+- p6df::modules::databricks::langs()
+
+
+
 ## Author
 
 Philip M . Gollucci <pgollucci@p6m7g8.com>
