@@ -22,7 +22,7 @@ p6df::modules::databricks::deps() {
 p6df::modules::databricks::external::brew() {
 
   brew tap databricks/tap
-  brew install databricks
+  p6df::modules::homebrew::cli::brew::install databricks
 
   p6_return_void
 }
@@ -40,5 +40,3 @@ p6df::modules::databricks::langs() {
 
   p6_return_void
 }
-
- 
