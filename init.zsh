@@ -40,3 +40,17 @@ p6df::modules::databricks::langs() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: p6df::modules::databricks::mcp()
+#
+#>
+######################################################################
+p6df::modules::databricks::mcp() {
+
+  uv tool install databricks-mcp
+
+  p6_return_void
+}

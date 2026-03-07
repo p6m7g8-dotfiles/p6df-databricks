@@ -17,7 +17,9 @@
 
 ## Summary
 
-TODO: Add a short summary of this module.
+p6df module for Databricks: CLI tools (`databricks` via brew tap), SQL CLI,
+and MCP server (`databricks-mcp` via uv, official Databricks package) for
+AI-driven workspace, cluster, and SQL management.
 
 ## Contributing
 
@@ -38,6 +40,7 @@ TODO: Add a short summary of this module.
 - `p6df::modules::databricks::deps()`
 - `p6df::modules::databricks::external::brew()`
 - `p6df::modules::databricks::langs()`
+- `p6df::modules::databricks::mcp()`
 
 ## Hierarchy
 
