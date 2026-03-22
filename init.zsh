@@ -36,7 +36,7 @@ p6df::modules::databricks::external::brew() {
 ######################################################################
 p6df::modules::databricks::langs() {
 
-  pip install databricks-sql-cli
+  uv tool install databricks-sql-cli
 
   p6_return_void
 }
