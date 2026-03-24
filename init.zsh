@@ -21,7 +21,7 @@ p6df::modules::databricks::deps() {
 ######################################################################
 p6df::modules::databricks::external::brew() {
 
-  brew tap databricks/tap
+  p6df::core::homebrew::cmd::brew tap databricks/tap
   p6df::core::homebrew::cli::brew::install databricks
 
   p6_return_void
