@@ -50,7 +50,10 @@ p6df::modules::databricks::langs() {
 ######################################################################
 p6df::modules::databricks::mcp() {
 
-  uv tool install databricks-mcp
+  p6_python_uv_tool_install "databricks-mcp"
+
+  p6df::modules::anthropic::mcp::server::add "databricks" "uvx" "databricks-mcp"
+  p6df::modules::openai::mcp::server::add "databricks" "uvx" "databricks-mcp"
 
   p6_return_void
 }
