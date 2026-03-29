@@ -15,11 +15,11 @@ p6df::modules::databricks::deps() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::databricks::external::brew()
+# Function: p6df::modules::databricks::external::brews()
 #
 #>
 ######################################################################
-p6df::modules::databricks::external::brew() {
+p6df::modules::databricks::external::brews() {
 
   p6df::core::homebrew::cmd::brew tap databricks/tap
   p6df::core::homebrew::cli::brew::install databricks
