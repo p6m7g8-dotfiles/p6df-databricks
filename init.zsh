@@ -57,3 +57,19 @@ p6df::modules::databricks::mcp() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words databricks $DATABRICKS_HOST = p6df::modules::databricks::profile::mod()
+#
+#  Returns:
+#	words - databricks $DATABRICKS_HOST
+#
+#  Environment:	 DATABRICKS_HOST
+#>
+######################################################################
+p6df::modules::databricks::profile::mod() {
+
+  p6_return_words 'databricks' '$DATABRICKS_HOST'
+}
