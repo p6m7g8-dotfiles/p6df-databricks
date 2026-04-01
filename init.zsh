@@ -71,5 +71,5 @@ p6df::modules::databricks::mcp() {
 ######################################################################
 p6df::modules::databricks::profile::mod() {
 
-  p6_return_words 'databricks' "$DATABRICKS_HOST"
+  p6_return_words 'databricks' '$DATABRICKS_HOST'
 }
