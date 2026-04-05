@@ -61,10 +61,10 @@ p6df::modules::databricks::mcp() {
 ######################################################################
 #<
 #
-# Function: words databricks $DATABRICKS_HOST = p6df::modules::databricks::profile::mod()
+# Function: words databricks = p6df::modules::databricks::profile::mod()
 #
 #  Returns:
-#	words - databricks $DATABRICKS_HOST
+#	words - databricks
 #
 #  Environment:	 DATABRICKS_HOST
 #>
